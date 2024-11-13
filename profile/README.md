@@ -13,9 +13,9 @@ in the operating systems research literature but thus far not used in mainstream
 - URIs as namespace paths allowing access to system resources both locally and on the network without mounting or unmounting anything
 - A highly modular kernel that internally abstracts almost all of its components to common interfacces allowing for implementations to be replaced or added relatively easily
 - Graceful failure mechanisms that avoid total system failure to the extent possible by simply allowing any kernel function that can fail to return a Result
-- others to be determined in the course of development
 - Intuitive and easy to use text based and graphical interfaces
 - Atomic update and installation transactions for all software including OS components with easy rollback
+- others to be determined in the course of development
 
 ### How can I get involved?
 
@@ -33,6 +33,6 @@ compared to attempting to refactor a proejct whose code was not organized well f
 
 ### Licenseing
 
-All executables within this project are to be licensed under the GNU General Public License version 3 or later while libraries are to be licensed under the GNU Lesser General Public License version 3 or later. If you do not wish to license your
-contributions under these terms then please do not contribute. We consider the strong compyleft license to be a feature of our project as much as anything else that its software components can do and will not ever considering changing or weakening the
-license requirements.
+All executables within this project are licensed under the GNU General Public License version 3 or later while libraries are licensed under the GNU Lesser General Public License version 3 or later. If you do not wish to license your
+contributions under these terms then please do not contribute. We consider the strong copyleft license to be a feature of our project as much as anything else that its software components can do and will not ever consider changing or weakening the
+license requirements for any reason.
