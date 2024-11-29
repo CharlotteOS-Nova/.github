@@ -1,10 +1,10 @@
-# Project Lavender
+# CharlotteOS: Nova
 
 ## An Experimental Modern Operating System
 
 ### What the heck is this?
 
-Project Lavender is an experimental attempt to create a much more modern operating system than those that are in common use today. It seeks to achieve this by incorporating several features that have been described
+`CharlotteOS: Nova` is an experimental attempt to create a much more modern operating system than those that are in common use today. It seeks to achieve this by incorporating several features that have been described
 in the operating systems research literature but thus far not used in mainstream operating system despite providing clear advantages over their equivalents in the mainstream systems. Among these features are the following:
 
 - Capability based access control
@@ -28,11 +28,12 @@ Not yet but it would be ideal to create a centralized repository of developer kn
 
 ### History
 
-This project is the successor to the now defunct CharlotteOS project and is run by some of the same people. We decided to start from scratch with the knowledge we gained from the prior attempt since it was the path of least resistance
+This project is the successor to the now defunct original CharlotteOS project and is run by some of the same people. We decided to start from scratch with the knowledge we gained from the prior attempt since it was the path of least resistance
 compared to attempting to refactor a proejct whose code was not organized well from the start and which was not designed with sufficient modularity and interface-implementation separation.
 
 ### Licenseing
 
-All executables within this project are licensed under the GNU General Public License version 3 or later while libraries are licensed under the GNU Lesser General Public License version 3 or later. If you do not wish to license your
-contributions under these terms then please do not contribute. We consider the strong copyleft license to be a feature of our project as much as anything else that its software components can do and will not ever consider changing or weakening the
-license requirements for any reason.
+All executables within this project are licensed under the GNU General Public License version 3 or later while libraries are licensed under the GNU Lesser General Public License version 3 or later. Individual repositories may also contain notices regarding specific exceptions to the requirements of the GPL 3.0 persuant to section 7 of the license which apply only to the repository in which they are placed.
+
+If you do not wish to license your
+contributions under these terms then please do not contribute. We consider the strong copyleft license to be a feature of our project as much as any functionality of the software itself.
