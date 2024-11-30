@@ -11,10 +11,11 @@ in the operating systems research literature but thus far not used in mainstream
 - A strongly typed system namespace used to enumerate and interact with all system resources from the filesystem to the registry and beyond as well as the same features on other hosts
 - A low level OS API that allows developers to aggressively optimize their applications and libraries when they so choose and also allows for the layering of their preferred abstractions atop it
 - URIs as namespace paths allowing access to system resources both locally and on the network without mounting or unmounting anything
-- A highly modular kernel that internally abstracts almost all of its components to common interfacces allowing for implementations to be replaced or added relatively easily
-- Graceful failure mechanisms that avoid total system failure to the extent possible by simply allowing any kernel function that can fail to return a Result
+- A highly modular kernel that internally abstracts almost all of its components to common interfaces allowing for implementations to be replaced or added relatively easily
+- Graceful failure mechanisms that avoid total system failure to the extent possible by making any kernel function that can fail return a Result unless the error absolutely cannot be recovered from at all.
 - Intuitive and easy to use text based and graphical interfaces
 - Atomic update and installation transactions for all software including OS components with easy rollback
+- A pure monolithic kernel (Nova) which cannot be dynamically modified or extended in any way after it is compiled to prevent tampering and eliminate an entire category of security vulnerabilities and potential stability issues.
 - others to be determined in the course of development
 
 ### How can I get involved?
