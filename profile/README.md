@@ -5,7 +5,7 @@
 ### What the heck is this?
 
 `CharlotteOS: Nova` is an experimental attempt to create a much more modern operating system than those that are in common use today. It seeks to achieve this by incorporating several features that have been described
-in the operating systems research literature but thus far not used in mainstream operating system despite providing clear advantages over their equivalents in the mainstream systems. Among these features are the following:
+in the operating systems research literature but thus far not used in any mainstream operating system despite providing clear advantages over their equivalents in the actual mainstream systems. Among these features are the following:
 
 - Capability based access control
 - A strongly typed system namespace used to enumerate and interact with all system resources from the filesystem to the registry and beyond as well as the same features on other hosts
@@ -20,7 +20,7 @@ in the operating systems research literature but thus far not used in mainstream
 
 ### How can I get involved?
 
-Just clone any of the repositories in this organization, make a new branch and make your desired changes, then make a pull request and a maintainer will review your changes and either merge them or make a request for changes. You can also
+Just clone any of the repositories in this organization, make a new branch and make your desired changes, then make a pull request and a maintainer will review it and either merge it or make a request for changes. You can also
 feel free to open issues in any of our repositories or participate in the disussion sections.
 
 ### Is there documentation or a wiki?
